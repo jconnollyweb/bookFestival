@@ -24,7 +24,7 @@ get_header();
         // Query the 'books' custom post type
         $books_query = new WP_Query([
             'post_type' => 'books',
-            'posts_per_page' => -1, // Adjust the number of books displayed if needed
+            'posts_per_page' => -1, 
         ]);
 
         // Loop through the books
@@ -71,7 +71,7 @@ get_header();
 
         container.scrollLeft = scrollAmount;
 
-        requestAnimationFrame(autoScroll); // Recursively call for smooth animation
+        requestAnimationFrame(autoScroll); 
     }
 
     autoScroll(); // Start auto-scrolling
