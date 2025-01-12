@@ -9,23 +9,20 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
+
 
 <header class="site-header">
-    <div class="container">
-        <!-- Site Title -->
-        <h1 class="site-title">
-            <a href="<?php echo esc_url(home_url('/')); ?>">
-                <?php bloginfo('name'); ?>
-            </a>
-        </h1>
-
-        <!-- Navigation Menu -->
-        <nav class="site-navigation">
+    <div class="header-container">
+        <div class="site-branding">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/book-icon.svg" alt="Book Icon" class="book-icon">
+            <h1 class="site-title"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+        </div>
+        <nav class="main-navigation">
             <?php
             wp_nav_menu(array(
                 'theme_location' => 'primary',
-                'menu_class'     => 'primary-menu',
-                'container'      => false,
+                'menu_class' => 'nav-menu',
             ));
             ?>
         </nav>
