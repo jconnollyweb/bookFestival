@@ -1,0 +1,67 @@
+/* Header Styling */
+.site-header {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 3px solid #e3120b;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-branding {
+    display: flex;
+    align-items: center;
+}
+
+.book-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.site-title {
+    font-size: 1.8em;
+    margin: 0;
+    color: #fff;
+}
+
+.site-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-navigation {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #e3120b;
+}

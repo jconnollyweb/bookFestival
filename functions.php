@@ -43,3 +43,11 @@ function my_custom_post_type() {
 }
 add_action('init', 'my_custom_post_type');
 
+function register_my_menus() {
+    register_nav_menus(array(
+        'primary' => __('Primary Menu', 'your-theme-textdomain'),
+    ));
+}
+add_action('init', 'register_my_menus');
+
+
