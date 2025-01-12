@@ -8,13 +8,13 @@
     gap: 20px;
     overflow-x: hidden;
     padding: 20px;
-    white-space: nowrap; /* Prevent line breaks */
+    white-space: nowrap;
     position: relative;
 }
 
 .book-card {
-    flex: 0 0 auto; /* Prevent cards from shrinking */
-    width: 250px; /* Set consistent width */
+    flex: 0 0 auto; 
+    width: 250px; 
     height: auto;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -22,10 +22,10 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     text-align: center;
-    overflow: hidden; /* Ensure content doesn't overflow the card */
+    overflow: hidden; 
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    justify-content: space-between; /* Distribute space evenly */
+    flex-direction: column; 
+    justify-content: space-between; 
 }
 
 .book-cover {
@@ -39,16 +39,16 @@
     font-size: 1.5em;
     margin: 10px 0 5px;
     color: #333;
-    word-wrap: break-word; /* Prevent long words from breaking the layout */
+    word-wrap: break-word; 
 }
 
 .book-description {
     font-size: 1em;
     color: #666;
-    width: 100%; /* Ensure it spans the width of the card */
-    word-wrap: break-word; /* Prevent text from overflowing */
-    overflow: hidden; /* Prevent text overflow */
-    text-overflow: ellipsis; /* Add ellipsis if text overflows */
-    white-space: normal; /* Allow multi-line descriptions */
+    width: 100%; 
+    word-wrap: break-word;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: normal; 
     margin-top: 10px;
 }
