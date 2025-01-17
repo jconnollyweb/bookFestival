@@ -30,19 +30,19 @@
 .hero-image {
     max-width: 100%;
     height: auto;
-    border-radius: 8px; /* Optional: Rounded corners */
+    border-radius: 8px; 
     margin-top: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 
 .books-section {
     padding: 20px;
     background-color: #f9f9f9;
-    position: relative; /* Needed for proper stacking */
-    top: -900px; /* Adjust to control overlap */
-    z-index: 2; /* Ensures it appears above the hero image */
-    border-radius: 8px; /* Optional: Rounded top corners */
+    position: relative; 
+    margin-top: -900px;
+    z-index: 2; 
+    border-radius: 8px; 
 }
 
 .books-container {
