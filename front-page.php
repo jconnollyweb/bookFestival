@@ -16,7 +16,7 @@ get_header();
         <div><span id="minutes">00</span> Minutes</div>
         <div><span id="seconds">00</span> Seconds</div>
     </div>
-    <img class="hero-image" src="<?php echo get_template_directory_uri(); ?>/images/book-festival.jpg" alt="Book Icon" class="book-icon">
+    <img class="hero-image" src="<?php echo get_template_directory_uri(); ?>/images/book-festival.jpg" alt="Book festival image" class="book-icon">
 </section>
 
 <section class="books-section">
