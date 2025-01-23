@@ -4,7 +4,22 @@ Template Name: Schedule
 */
 get_header();
 ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/schedule.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book festival schedule">
+    <meta name="keywords" content="schedule, events, timetable, Tolkien">
+    <title>Schedule Page </title>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/schedule.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+
 
 <div class="schedule-container">
     <h1>Schedule</h1>
